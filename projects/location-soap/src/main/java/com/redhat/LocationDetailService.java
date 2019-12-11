@@ -4,6 +4,6 @@ import com.redhat.model.ContactInfo;
 
 public interface LocationDetailService {
 	
-	public ContactInfo contact(Integer id);
+	public ContactInfo contact2(Integer id);
 
 }
