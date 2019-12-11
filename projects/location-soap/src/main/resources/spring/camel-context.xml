@@ -4,7 +4,7 @@
     xmlns:cxf="http://camel.apache.org/schema/cxf"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="                  http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd                               http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd                        http://camel.apache.org/schema/cxf http://camel.apache.org/schema/cxf/camel-cxf-spring.xsd">
     <!-- Define a traditional camel context here -->
-    <cxf:cxfEndpoint address="/location2"
+    <cxf:cxfEndpoint address="/location"
         id="locationDetailServiceEndpoint" serviceClass="com.redhat.LocationDetailService"/>
     <bean class="com.redhat.processor.ResultProcessor" id="resultProcessor"/>
     <camelContext id="camel" xmlns="http://camel.apache.org/schema/spring">
